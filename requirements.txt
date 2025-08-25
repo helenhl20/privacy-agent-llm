@@ -1,0 +1,9 @@
+beautifulsoup4
+ddgs
+tldextract
+python-dotenv
+tenacity
+tqdm
+requests
+reportlab
+openai
