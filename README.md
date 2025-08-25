@@ -44,17 +44,27 @@ You’ll need your own [OpenAI API key](https://platform.openai.com/).
 
 ### Option 1: Add to `.env`  
 Create a `.env` file in the project root:
-```bash OPENAI_API_KEY=sk-your_api_key_here ```
+```bash 
+OPENAI_API_KEY=sk-your_api_key_here
+```
 
 ### Option 2: Export in your terminal  
-- **Mac/Linux**:  ```bash export OPENAI_API_KEY="sk-your_api_key_here" ```
-- **Windows (PowerShell)**: ```bash $env:OPENAI_API_KEY="sk-your_api_key_here" ```
+- **Mac/Linux**:
+  ```bash
+  export OPENAI_API_KEY="sk-your_api_key_here"
+  ```
+- **Windows (PowerShell)**:
+  ```bash
+  $env:OPENAI_API_KEY="sk-your_api_key_here"
+  ```
 
 ---
 ## 🚀 Usage
 
 Run the script with your target email:
-```bash python privacy_agent_llm.py --email you@example.com ```
+```bash
+python privacy_agent_llm.py --email you@example.com
+```
 
 ### Arguments
 - `--email` (required): The email address to search for  
